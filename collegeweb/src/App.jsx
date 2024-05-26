@@ -37,7 +37,7 @@ function App() {
                 role === "user" ? (
                   <Home setToken={setToken} />
                 ) : (
-                  <Admin />
+                  <Admin setToken={setToken} />
                 )
               ) : (
                 <Home setToken={setToken} />
