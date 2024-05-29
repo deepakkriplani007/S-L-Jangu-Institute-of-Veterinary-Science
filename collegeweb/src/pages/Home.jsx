@@ -20,17 +20,25 @@ const Home = ({ setToken, setRole }) => {
     <div className="hide-scrollbar">
       <Navbar setToken={setToken} />
       <Slider className="hide-scrollbar" slides={slides} />
+      <div className=" flex pt-16 pb-4 gap-5 justify-center items-center bg-[#162242]">
+        <img
+          className=" w-20 h-auto  min-[500px]:w-28 in-[500px]:h-auto"
+          src="./file.png"
+          alt=""
+        />
+        <div className="text-white text-lg sm:text-4xl text-center self-center">
+          shree balaji school of nursing & Veterinary and science college
+        </div>
+      </div>
       <div className=" w-full flex flex-col items-end  pr-8 mt-16">
-        <motion.div
-          initial={{ opacity: 0, x: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          className=" bg-[#162242] flex items-center justify-center sm:justify-end w-1/4 sm:mr-[10vh]"
+        <div
+          className=" bg-[#162242] flex items-center justify-center sm:justify-end  sm:mr-[10vh]"
           style={{ clipPath: "polygon(100% 0, 10% 0%, 0% 100%, 90% 100%)" }}
         >
           <h1 className="p-4 pb-4 text-base sm:text-2xl lg:text-3xl text-white font-semibold  pr-8 pl-8">
             GENESIS AND GROWTH
           </h1>
-        </motion.div>
+        </div>
         <hr className="h-1 w-3/4 mt-5 bg-gray-300 border-0" />
       </div>
       <div className="mt-[8vh] mb-[8vh] ml-[4vh] mr-[4vh] sm:ml-[25vh] sm:mr-[25vh] text-gray-900 text-sm max-sm:font-medium sm:text-xl lg:text-2xl">
@@ -61,10 +69,8 @@ const Home = ({ setToken, setRole }) => {
         </p>
       </div>
       <div className="w-full flex flex-col items-start  pl-8 ">
-        <motion.div
-          initial={{ opacity: 0, x: -100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          className=" bg-[#162242] flex items-center justify-center sm:justify-start w-1/4 sm:ml-[8vh] "
+        <div
+          className=" bg-[#162242] flex items-center justify-center sm:justify-start sm:ml-[8vh] "
           style={{
             clipPath: "polygon(0% 0, 90% 0%, 100% 100%, 10% 100%)",
           }}
@@ -72,7 +78,7 @@ const Home = ({ setToken, setRole }) => {
           <h1 className=" text-base sm:text-2xl lg:text-3xl text-white font-semibold  pl-8 pr-8 pt-4 pb-4">
             Faculty & Staff
           </h1>
-        </motion.div>
+        </div>
         <hr className="h-1 w-3/4 mt-5 bg-gray-300 border-0" />
         <div className=" mt-[8vh] mb-[8vh]  ml-[4vh] mr-[4vh] sm:ml-[25vh] sm:mr-[25vh] flex justify-center text-gray-900 text-sm max-sm:font-medium sm:text-xl lg:text-2xl">
           <p>

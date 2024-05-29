@@ -15,9 +15,10 @@ const Footer = () => {
           <div className="flex justify-center">
             <h1 className="text-lg lg:text-xl font-bold"> Chairman</h1>
           </div>
-          <h1 className="flex justify-center text-xl">
-            Shri Balaji Education Society, Jodhpur
+          <h1 className="flex justify-center text-xl text-center">
+            Shri Balaji Education Society
           </h1>
+          <h1 className="flex justify-center text-xl">Jodhpur</h1>
           <h1 className="flex justify-center text-xl"> Mo. 9414146000</h1>
         </div>
         <div className="bg-[#162242] p-8 flex justify-center ">
@@ -40,9 +41,10 @@ const Footer = () => {
           <div className="flex justify-center">
             <h1 className="text-lg lg:text-xl font-bold">Principal</h1>
           </div>
-          <h1 className="flex justify-center text-xl">
+          <h1 className="flex justify-center text-xl text-center">
             Shri S. L. Jangu Institute of Veterinary Science
           </h1>
+
           <h1 className="flex justify-center text-xl">Mo. 9680927332</h1>
         </div>
       </div>
