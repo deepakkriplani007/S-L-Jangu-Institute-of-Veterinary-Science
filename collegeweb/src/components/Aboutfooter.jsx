@@ -43,16 +43,6 @@ const Aboutfooter = () => {
                     427, Pal Link Rd, Baldev Nagar, Jodhpur, Rajasthan 342008
                   </h1>
                 </address>
-                <div className="flex flex-col justify-center items-center mt-4">
-                  <img
-                    src="./fac (1).jpeg"
-                    className="w-20 border-2 border-black rounded-sm "
-                    alt=""
-                  />
-                  <p className="pt-2"> Kartik </p>
-                  <p className=""> Kittusharma7357@gmail.com</p>
-                  <p className="pt-px mt-2"> 7357277835</p>
-                </div>
               </div>
             </div>
           </div>

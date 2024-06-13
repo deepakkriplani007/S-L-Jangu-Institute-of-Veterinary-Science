@@ -20,14 +20,21 @@ const Home = ({ setToken, setRole }) => {
     <div className="hide-scrollbar">
       <Navbar setToken={setToken} />
       <Slider className="hide-scrollbar" slides={slides} />
-      <div className=" flex pt-16 pb-4 gap-5 justify-center items-center bg-[#162242]">
-        <img
-          className=" w-20 h-auto  min-[500px]:w-28 in-[500px]:h-auto"
-          src="./file.png"
-          alt=""
-        />
-        <div className="text-white text-lg sm:text-4xl text-center self-center">
-          shree balaji school of nursing & Veterinary and science college
+      <div className=" text-white  pt-16 pb-16 gap-5 justify-center items-center bg-[#162242]">
+        <div className=" text-lg pb-2 sm:text-4xl text-center self-center">
+          shree S.L jangu veterinary and science college
+        </div>
+        <p className="text-center">
+          Affiliated by Govt. of Rajasthan - RAJUVAS Bikaner
+        </p>
+        <div className="  text-center pt-3">
+          <div className="text-base sm:text-2xl font-semibold">
+            Offered Course <br /> AHDP (Livestock Assistant){" "}
+          </div>
+          <div className="text-sm sm:text-lg">Course Duration : 2 Years</div>
+          <div className="text-sm sm:text-lg">
+            Eligiblilty for Admission : 10+2 Science Bio or Agriculture
+          </div>
         </div>
       </div>
       <div className=" w-full flex flex-col items-end  pr-8 mt-16">

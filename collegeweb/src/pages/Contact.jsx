@@ -18,15 +18,23 @@ const Contact = () => {
     <div className="overflow-auto hide-scrollbar">
       <Navbar />
       <Slider className="hide-scrollbar" slides={slides} />
-      <div className=" flex pt-16 pb-4 gap-5 justify-center items-center bg-[#162242]">
-        <img
-          className=" w-20 h-auto  min-[500px]:w-28 in-[500px]:h-auto"
-          src="./file.png"
-          alt=""
-        />
-        <div className="text-white text-lg sm:text-4xl text-center self-center">
-          shree balaji school of nursing & Veterinary and science college
+      <div className="  text-white  pt-16 pb-16 gap-5 justify-center items-center bg-[#162242]">
+        <div className=" text-lg sm:text-4xl pb-2 text-center self-center">
+          shree S.L jangu veterinary and science college
         </div>
+        <p className="text-center ">
+          Affiliated by Govt. of Rajasthan - RAJUVAS Bikaner
+        </p>
+        <div className="  text-center pt-3">
+          <div className="text-base sm:text-2xl font-semibold">
+            Offered Course <br /> AHDP (Livestock Assistant){" "}
+          </div>
+          <div className="text-sm sm:text-lg">Course Duration : 2 Years</div>
+          <div className="text-sm sm:text-lg">
+            Eligiblilty for Admission : 10+2 Science Bio or Agriculture
+          </div>
+        </div>
+        <div></div>
       </div>
       <div className="  rounded-lg p-4 mt-24 sm:mr-24">
         <div className=" w-full flex flex-col items-end  mt-16">
@@ -159,17 +167,12 @@ const Contact = () => {
           <div className=" mt-[8vh] mb-[8vh]  ml-[4vh] mr-[4vh] sm:ml-[25vh] sm:mr-[25vh] flex justify-center text-gray-900 text-sm max-sm:font-medium sm:text-xl lg:text-2xl">
             <div>
               <p>
-                <b>Diploma in Animal Husbandry (Dip. AH):</b>
+                <b>AHDP (Livestock Assistant):</b>
                 This program equips students with essential skills in animal
                 care, disease management, and farm management. Graduates play a
                 crucial role in livestock health and production. Undergraduate
               </p>
               <br />
-              <p>
-                <b>Diploma (UG Diploma): </b>Our UG Diploma program focuses on
-                practical aspects of veterinary science, preparing students for
-                diverse career paths.
-              </p>
             </div>
             <br />
           </div>
@@ -256,7 +259,7 @@ const Contact = () => {
                         className="w-20 border-2 border-black rounded-sm "
                         alt=""
                       />
-                      <p className="pt-2"> Indu Godhara</p>
+                      <p className="pt-2"> DR. Indu Godhara</p>
                     </div>
                   </th>
                   <td className="px-6 py-4 text-gray-900">

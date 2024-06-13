@@ -239,9 +239,10 @@ const Adminnav = ({ setToken }) => {
                 </svg>
               </div>
               <span className="block mb-3 text-xl text-gray-500">Contact</span>
-              <Link className="font-semibold text-black" to="/">
-                Arunjournlist@gmail.com
-              </Link>
+              <div className="font-semibold flex flex-col text-gray-400 mb-2">
+                sbes115555@gmail.com
+                <span>8619867634</span>
+              </div>
             </div>
           </div>
         </nav>

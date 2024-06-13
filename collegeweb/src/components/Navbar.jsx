@@ -311,7 +311,7 @@ const Navbar = ({}) => {
               <div className="flex px-6 mb-16 items-center">
                 <Link
                   className="flex py-3 px-4 text-xl font-semibold text-orange-900 hover:text-white border border-gray-300 hover:border-orange-600 hover:bg-orange-900 rounded-md transition duration-200"
-                  to="login"
+                  to="/login"
                 >
                   <span className="relative pt-1">
                     <LuLogIn />
